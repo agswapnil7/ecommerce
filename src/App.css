@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=PT+Sans&family=Roboto+Condensed&display=swap');
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Mukta', sans-serif;
+}
+nav i.gg{
+  font-size: 2em;
+}
+nav i.fas:hover{
+  transform: scale(1.20);
+}
+ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.con{
+  margin: auto;
+  width:80%;
+  text-align: center;
+  padding: 30px;
+}
+.banner-1{
+  background-image: url('https://images.unsplash.com/photo-1507975456351-a41d6828b9c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+  
+}
+
+.aa{
+  background:#FEF9F3;
+  max-height: 900px;
+}
+.bb li:hover{
+  margin-left: 10px;
+}
+
+.banner-left{
+  margin: 300px 80px;
+}
+.banner-left h1{
+ 
+  font-size: 85px;
+}
+.banner-left h3{
+ 
+  color:grey;
+}
+.banner-left h1 span{
+  color: red;
+}
+.banner-right img{
+  margin-left: 150px;
+  height:900px;
+}
+.navbar-nav li:hover {
+  background-color:lightgray;
+  border-radius: 20px;
+}
+.footer i.fas{
+  font-size: 3em;
+}
+.prodImg {
+  transition: transform 0.3s ease-out;
+}
+.prodImg:hover {
+  transform: scale(1.07);
+}
+.sliderImg{
+  width: 280px;
+}
+
+
+.img-zoom {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+.img-zoom:hover {
+  transform: scale(1.02);
+}
+.vid{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  left: 0;
+}
+.bg {
+  padding-top: 80px;
+  background-image: url("https://cdn.sandersondesigngroup.com/processed-images/products/large/HMFW111589.jpg");
+  height: 420px;
+  background-size: cover;
+  background-position: center center;
+}
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  margin-top: 40px;
+}
+.stl{
+  color:red;
+  font-size:100px;
+  font-family:fantasy; 
+  padding:100px;
+}
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 4px 4px;
+}
+
+input {
+  width: 220px;
+}
+
+.search-inner {
+  display: flex;
+}
+@media (max-width: 768px) {
+   .con {
+    width: 100%;
+    padding: 20px;
+  } 
+  .banner-1 {
+    height: 500px;
+  }
+  .banner-left {
+    margin: 330px 30px;
+  }
+  .banner-left h1 {
+    font-size: 50px;
+  }
+  .banner-right img {
+    margin-left: 0;
+    margin-top: 330px;
+    height: auto;
+    width: 100%;
+  }
+  .stl{
+    padding: 0px;
+  }
+  .bdy img{
+    display: none;
+  }
+  .sliderImg {
+    padding:50px 0 50px 0;
+    width: 80px;
+  }
+  .bg h1.stl{
+    font-size: 50px;
+    margin-top: 250px;
+
+  }
+}
